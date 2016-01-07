@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+/* line 5, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* ======= Typography */
+/* line 2, ../sass/_typography.sass */
+p {
+  font-size: 1.4rem;
+  line-height: 2.24rem;
+  color: #6c7279;
+}
+
+/* line 7, ../sass/_typography.sass */
+h1 {
+  font-size: 3.6rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 11, ../sass/_typography.sass */
+h2 {
+  font-size: 1.8rem;
+  color: #16a085;
+}
+
+/* line 15, ../sass/_typography.sass */
+h3 {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+}
+
+/* line 20, ../sass/_typography.sass */
+h4 {
+  font-size: 1.2rem;
+  color: #2d3033;
+  font-weight: 400;
+}
+
+/* line 25, ../sass/_typography.sass */
+h5 {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+}
+
+/* line 6, ../sass/style.sass */
+.button {
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #16a085;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  letter-spacing: 3px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+
+/* line 19, ../sass/style.sass */
+body {
+  font-size: 62.5%;
+  font-family: "Varela Round", sans-serif;
+}
+
+/* line 23, ../sass/style.sass */
+#header {
+  background-image: url(../img/header_bg.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+/* line 30, ../sass/style.sass */
+ul.nav-menu {
+  margin: 2% 0;
+  text-align: center;
+}
+/* line 33, ../sass/style.sass */
+ul.nav-menu li {
+  display: inline-block;
+  margin-right: 6%;
+}
+/* line 36, ../sass/style.sass */
+ul.nav-menu li:last-child {
+  margin-right: 0;
+}
+/* line 38, ../sass/style.sass */
+ul.nav-menu li img {
+  vertical-align: middle;
+}
+/* line 40, ../sass/style.sass */
+ul.nav-menu li a {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 45, ../sass/style.sass */
+.header-center-title {
+  text-align: center;
+  margin-top: 30vh;
+  margin-bottom: 1vh;
+}
+/* line 49, ../sass/style.sass */
+.header-center-title h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 1% 0;
+}
+/* line 54, ../sass/style.sass */
+.header-center-title h3 {
+  padding-top: 0.5%;
+}
+
+/* line 56, ../sass/style.sass */
+.header-center-button {
+  text-align: center;
+  margin: 3vh 0;
+}
+
+/* line 59, ../sass/style.sass */
+.socials {
+  text-align: center;
+  margin-top: 31vh;
+  bottom: 10px;
+}
+/* line 64, ../sass/style.sass */
+.socials ul.socials-socbuttons li {
+  display: inline-block;
+  margin: 0 1%;
+}
+/* line 67, ../sass/style.sass */
+.socials ul.socials-socbuttons a {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 70, ../sass/style.sass */
+.section-content {
+  padding: 6% 0;
+}
+
+/* line 72, ../sass/style.sass */
+.section-title {
+  text-align: left;
+  text-transform: uppercase;
+  margin: 5% 0;
+}
+/* line 76, ../sass/style.sass */
+.section-title h2 {
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 2.24rem;
+}
+
+/* line 81, ../sass/style.sass */
+.section-title-black h2 {
+  color: #111111;
+}
+
+/* line 83, ../sass/style.sass */
+.section-text {
+  margin: 5% 0 10%;
+}
+
+/* line 88, ../sass/style.sass */
+.section-logo {
+  text-align: center;
+}
+/* line 90, ../sass/style.sass */
+.section-logo h4 {
+  text-transform: uppercase;
+  padding: 6% 0;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+/* line 95, ../sass/style.sass */
+.section-logo p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  letter-spacing: 2px;
+}
+
+/* line 100, ../sass/style.sass */
+#fifth {
+  position: relative;
+  background-image: url(../img/subscribe-bg.jpg);
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+/* line 105, ../sass/style.sass */
+.stripes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) 2px, rgba(33, 33, 33, 0.5) 4px, rgba(22, 22, 22, 0.5) 10px);
+}
+
+/* line 110, ../sass/style.sass */
+.fifth-inner {
+  text-align: center;
+  margin: 20% 0;
+}
+/* line 113, ../sass/style.sass */
+.fifth-inner h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+/* line 117, ../sass/style.sass */
+.fifth-inner input {
+  color: #111;
+  padding: 20px 22px;
+  font-size: 1.4rem;
+  width: 20%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* line 127, ../sass/style.sass */
+#sixth {
+  background-color: #f5f6f7;
+}
+/* line 129, ../sass/style.sass */
+#sixth .section-title {
+  text-align: center;
+  margin: 0;
+}
+/* line 132, ../sass/style.sass */
+#sixth .section-text {
+  text-align: center;
+  margin: 5% 0 5%;
+}
+
+/* line 137, ../sass/style.sass */
+.download-buttons .download-button-one {
+  float: right;
+}
+/* line 139, ../sass/style.sass */
+.download-buttons .download-button-two {
+  float: left;
+}
+
+/* line 142, ../sass/style.sass */
+footer {
+  padding: 2% 0;
+}
+/* line 146, ../sass/style.sass */
+footer ul.nav-menu-footer li a {
+  font-size: 1rem;
+  color: #111;
+}
+/* line 149, ../sass/style.sass */
+footer .section-logo-footer {
+  vertical-align: middle;
+}
+
+/*==========  Desktop First Method  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* */
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
+/*==========  Mobile First Method  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */
+}
