@@ -75,7 +75,7 @@ p {
 /* line 7, ../sass/_typography.sass */
 h1 {
   font-size: 3.6rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #fff;
 }
 
 /* line 11, ../sass/_typography.sass */
@@ -87,7 +87,7 @@ h2 {
 /* line 15, ../sass/_typography.sass */
 h3 {
   font-size: 1.6rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #fff;
   font-weight: 400;
 }
 
@@ -101,7 +101,7 @@ h4 {
 /* line 25, ../sass/_typography.sass */
 h5 {
   font-size: 1.4rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #fff;
   font-weight: 400;
 }
 
@@ -111,7 +111,7 @@ h5 {
   display: inline-block;
   background-color: #16a085;
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #fff;
   font-weight: 700;
   letter-spacing: 3px;
   -webkit-border-radius: 6px;
@@ -157,7 +157,7 @@ ul.nav-menu li img {
 /* line 40, ../sass/style.sass */
 ul.nav-menu li a {
   font-size: 1.4rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #fff;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -200,19 +200,19 @@ ul.nav-menu li a {
 /* line 67, ../sass/style.sass */
 .socials ul.socials-socbuttons a {
   font-size: 1.4rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #fff;
 }
 
 /* line 70, ../sass/style.sass */
 .section-content {
-  padding: 6% 0;
+  padding: 4% 0;
 }
 
 /* line 72, ../sass/style.sass */
 .section-title {
   text-align: left;
   text-transform: uppercase;
-  margin: 5% 0;
+  margin: 4% 0;
 }
 /* line 76, ../sass/style.sass */
 .section-title h2 {
@@ -231,25 +231,33 @@ ul.nav-menu li a {
   margin: 5% 0 10%;
 }
 
-/* line 88, ../sass/style.sass */
+/* line 86, ../sass/style.sass */
+#second {
+  background-color: #f5f6f7;
+  background-image: url("../img/hand.png");
+  background-repeat: no-repeat;
+  background-position: 80% 150px;
+}
+
+/* line 91, ../sass/style.sass */
 .section-logo {
   text-align: center;
 }
-/* line 90, ../sass/style.sass */
+/* line 93, ../sass/style.sass */
 .section-logo h4 {
   text-transform: uppercase;
   padding: 6% 0;
   font-weight: 700;
   letter-spacing: 3px;
 }
-/* line 95, ../sass/style.sass */
+/* line 98, ../sass/style.sass */
 .section-logo p {
   font-size: 0.8rem;
   line-height: 1rem;
   letter-spacing: 2px;
 }
 
-/* line 100, ../sass/style.sass */
+/* line 103, ../sass/style.sass */
 #fifth {
   position: relative;
   background-image: url(../img/subscribe-bg.jpg);
@@ -257,7 +265,7 @@ ul.nav-menu li a {
   background-size: 100% 100%;
 }
 
-/* line 105, ../sass/style.sass */
+/* line 108, ../sass/style.sass */
 .stripes {
   position: absolute;
   width: 100%;
@@ -265,18 +273,18 @@ ul.nav-menu li a {
   background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) 2px, rgba(33, 33, 33, 0.5) 4px, rgba(22, 22, 22, 0.5) 10px);
 }
 
-/* line 110, ../sass/style.sass */
+/* line 113, ../sass/style.sass */
 .fifth-inner {
   text-align: center;
   margin: 20% 0;
 }
-/* line 113, ../sass/style.sass */
+/* line 116, ../sass/style.sass */
 .fifth-inner h1 {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-/* line 117, ../sass/style.sass */
+/* line 120, ../sass/style.sass */
 .fifth-inner input {
   color: #111;
   padding: 20px 22px;
@@ -288,40 +296,40 @@ ul.nav-menu li a {
   border: none;
 }
 
-/* line 127, ../sass/style.sass */
+/* line 130, ../sass/style.sass */
 #sixth {
   background-color: #f5f6f7;
 }
-/* line 129, ../sass/style.sass */
+/* line 132, ../sass/style.sass */
 #sixth .section-title {
   text-align: center;
   margin: 0;
 }
-/* line 132, ../sass/style.sass */
+/* line 135, ../sass/style.sass */
 #sixth .section-text {
   text-align: center;
   margin: 5% 0 5%;
 }
 
-/* line 137, ../sass/style.sass */
+/* line 140, ../sass/style.sass */
 .download-buttons .download-button-one {
   float: right;
 }
-/* line 139, ../sass/style.sass */
+/* line 142, ../sass/style.sass */
 .download-buttons .download-button-two {
   float: left;
 }
 
-/* line 142, ../sass/style.sass */
+/* line 145, ../sass/style.sass */
 footer {
   padding: 2% 0;
 }
-/* line 146, ../sass/style.sass */
+/* line 149, ../sass/style.sass */
 footer ul.nav-menu-footer li a {
   font-size: 1rem;
   color: #111;
 }
-/* line 149, ../sass/style.sass */
+/* line 152, ../sass/style.sass */
 footer .section-logo-footer {
   vertical-align: middle;
 }
