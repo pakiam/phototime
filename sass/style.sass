@@ -15,6 +15,7 @@
   -moz-border-radius: 6px
   border-radius: 6px
   padding: 20px 30px
+  margin-bottom: 3%
 
 body
   font-size: 62.5%
@@ -67,7 +68,7 @@ ul.nav-menu
     a
       font-size: $font-size
       color: $base-color
-.section-content
+.section-padding
   padding: 4% 0
 .section-title
   text-align: left
@@ -85,9 +86,10 @@ ul.nav-menu
 
 #second
   background-color: #f5f6f7
-  background-image: url('../img/hand.png')
-  background-repeat: no-repeat
-  background-position: 80% 150px
+.hand-with-phones
+  height: 430px
+  overflow: hidden
+  margin-top: 18%
 .section-logo
   text-align: center
   h4
@@ -99,7 +101,32 @@ ul.nav-menu
     font-size: 0.8rem
     line-height: 1rem
     letter-spacing: 2px
-
+#third
+  .phones-mockUps
+    height: 446px
+    overflow: hidden
+    margin-top: 10%
+    margin-left: 30%
+  .slider
+    width: 600px
+    overflow: hidden
+    .controls
+      p
+        font-size: 1rem
+        color: #000000
+      .fa
+        font-size: 1.5rem
+        margin-right: 2%
+        cursor: pointer
+    ul
+      padding: 0
+      margin: 0
+      width: 9999px
+      [class*='slider-item']
+        width: 600px
+        display: inline-block
+#fourth
+  background-color: #f5f6f7
 #fifth
   position: relative
   background-image: url(../img/subscribe-bg.jpg)
