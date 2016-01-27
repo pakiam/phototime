@@ -109,7 +109,7 @@ h5 {
 .button {
   text-transform: uppercase;
   display: inline-block;
-  background-color: #16a085;
+  background-color: #1abc9c;
   font-size: 1.1rem;
   color: #fff;
   font-weight: 700;
@@ -120,14 +120,18 @@ h5 {
   padding: 20px 30px;
   margin-bottom: 3%;
 }
+/* line 19, ../sass/style.sass */
+.button:hover {
+  background-color: #16a085;
+}
 
-/* line 20, ../sass/style.sass */
+/* line 22, ../sass/style.sass */
 body {
   font-size: 62.5%;
   font-family: "Varela Round", sans-serif;
 }
 
-/* line 24, ../sass/style.sass */
+/* line 26, ../sass/style.sass */
 #header {
   background-image: url(../img/header_bg.jpg);
   background-repeat: no-repeat;
@@ -137,25 +141,25 @@ body {
   height: 100vh;
 }
 
-/* line 31, ../sass/style.sass */
+/* line 33, ../sass/style.sass */
 ul.nav-menu {
   margin: 2% 0;
   text-align: center;
 }
-/* line 34, ../sass/style.sass */
+/* line 36, ../sass/style.sass */
 ul.nav-menu li {
   display: inline-block;
   margin-right: 6%;
 }
-/* line 37, ../sass/style.sass */
+/* line 39, ../sass/style.sass */
 ul.nav-menu li:last-child {
   margin-right: 0;
 }
-/* line 39, ../sass/style.sass */
+/* line 41, ../sass/style.sass */
 ul.nav-menu li img {
   vertical-align: middle;
 }
-/* line 41, ../sass/style.sass */
+/* line 43, ../sass/style.sass */
 ul.nav-menu li a {
   font-size: 1.4rem;
   color: #fff;
@@ -163,154 +167,206 @@ ul.nav-menu li a {
   font-weight: 700;
 }
 
-/* line 46, ../sass/style.sass */
+/* line 48, ../sass/style.sass */
 .header-center-title {
   text-align: center;
   margin-top: 30vh;
   margin-bottom: 1vh;
 }
-/* line 50, ../sass/style.sass */
+/* line 52, ../sass/style.sass */
 .header-center-title h1 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 4px;
   padding: 1% 0;
 }
-/* line 55, ../sass/style.sass */
+/* line 57, ../sass/style.sass */
 .header-center-title h3 {
   padding-top: 0.5%;
 }
 
-/* line 57, ../sass/style.sass */
+/* line 59, ../sass/style.sass */
 .header-center-button {
   text-align: center;
   margin: 3vh 0;
 }
 
-/* line 60, ../sass/style.sass */
+/* line 62, ../sass/style.sass */
 .socials {
   text-align: center;
-  margin-top: 31vh;
+  margin-top: 28vh;
   bottom: 10px;
 }
-/* line 65, ../sass/style.sass */
+/* line 67, ../sass/style.sass */
 .socials ul.socials-socbuttons li {
   display: inline-block;
   margin: 0 1%;
 }
-/* line 68, ../sass/style.sass */
+/* line 70, ../sass/style.sass */
 .socials ul.socials-socbuttons a {
   font-size: 1.4rem;
   color: #fff;
 }
 
-/* line 71, ../sass/style.sass */
+/* line 73, ../sass/style.sass */
 .section-padding {
   padding: 4% 0;
 }
 
-/* line 73, ../sass/style.sass */
+/* line 75, ../sass/style.sass */
 .section-title {
   text-align: left;
   text-transform: uppercase;
   margin: 4% 0;
 }
-/* line 77, ../sass/style.sass */
+/* line 79, ../sass/style.sass */
 .section-title h2 {
   font-weight: 700;
   letter-spacing: 5px;
   line-height: 2.24rem;
 }
 
-/* line 82, ../sass/style.sass */
+/* line 84, ../sass/style.sass */
 .section-title-black h2 {
   color: #111111;
 }
 
-/* line 84, ../sass/style.sass */
+/* line 86, ../sass/style.sass */
 .section-text {
   margin: 5% 0 10%;
 }
 
-/* line 87, ../sass/style.sass */
+/* line 89, ../sass/style.sass */
 #second {
   background-color: #f5f6f7;
+  position: relative;
 }
 
-/* line 89, ../sass/style.sass */
+/* line 92, ../sass/style.sass */
 .hand-with-phones {
+  position: absolute;
   height: 430px;
   overflow: hidden;
-  margin-top: 18%;
+  bottom: 0;
+  right: 0;
+  margin-right: 13%;
 }
 
-/* line 93, ../sass/style.sass */
+/* line 99, ../sass/style.sass */
 .section-logo {
   text-align: center;
 }
-/* line 95, ../sass/style.sass */
+/* line 101, ../sass/style.sass */
 .section-logo h4 {
   text-transform: uppercase;
   padding: 6% 0;
   font-weight: 700;
   letter-spacing: 3px;
 }
-/* line 100, ../sass/style.sass */
+/* line 106, ../sass/style.sass */
 .section-logo p {
   font-size: 0.8rem;
   line-height: 1rem;
   letter-spacing: 2px;
 }
 
-/* line 105, ../sass/style.sass */
+/* line 110, ../sass/style.sass */
+#third {
+  position: relative;
+}
+/* line 112, ../sass/style.sass */
 #third .phones-mockUps {
+  position: absolute;
   height: 446px;
   overflow: hidden;
-  margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 13%;
+  bottom: 0;
 }
-/* line 110, ../sass/style.sass */
-#third .slider {
+
+/* line 118, ../sass/style.sass */
+.slider1, .slider2, .slider {
   width: 600px;
   overflow: hidden;
 }
-/* line 114, ../sass/style.sass */
-#third .slider .controls p {
+/* line 122, ../sass/style.sass */
+.slider1 .controls p, .slider2 .controls p, .slider .controls p {
   font-size: 1rem;
   color: #000000;
 }
-/* line 117, ../sass/style.sass */
-#third .slider .controls .fa {
+/* line 125, ../sass/style.sass */
+.slider1 .controls .fa, .slider2 .controls .fa, .slider .controls .fa {
   font-size: 1.5rem;
   margin-right: 2%;
   cursor: pointer;
 }
-/* line 121, ../sass/style.sass */
-#third .slider ul {
+/* line 129, ../sass/style.sass */
+.slider1 ul, .slider2 ul, .slider ul {
   padding: 0;
   margin: 0;
   width: 9999px;
 }
-/* line 125, ../sass/style.sass */
-#third .slider ul [class*='slider-item'] {
+/* line 133, ../sass/style.sass */
+.slider1 ul [class*='slider-item'], .slider2 ul [class*='slider-item'], .slider ul [class*='slider-item'] {
   width: 600px;
   display: inline-block;
 }
 
-/* line 128, ../sass/style.sass */
+/* line 136, ../sass/style.sass */
+.slider1 {
+  width: 800px;
+}
+/* line 138, ../sass/style.sass */
+.slider1 img {
+  max-width: 100%;
+}
+/* line 141, ../sass/style.sass */
+.slider1 ul [class*='slider-item'] {
+  width: 400px;
+}
+
+/* line 143, ../sass/style.sass */
 #fourth {
   background-color: #f5f6f7;
 }
 
-/* line 130, ../sass/style.sass */
+/* line 145, ../sass/style.sass */
 #fifth {
   position: relative;
   background-image: url(../img/subscribe-bg.jpg);
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
 }
+/* line 150, ../sass/style.sass */
+#fifth .subscribe {
+  display: inline-block;
+  line-height: normal;
+  height: 60px;
+  padding-right: 82px;
+  min-width: 260px;
+  max-width: 400px;
+}
+/* line 157, ../sass/style.sass */
+#fifth .subscribe-button {
+  display: inline-block;
+  height: 60px;
+  width: 82px;
+  outline: medium;
+  border: 0;
+  margin-left: -82px;
+  line-height: 1.3;
+  margin-bottom: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
 
-/* line 135, ../sass/style.sass */
+/* line 176, ../sass/style.sass */
 .stripes {
   position: absolute;
   width: 100%;
@@ -318,18 +374,18 @@ ul.nav-menu li a {
   background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) 2px, rgba(33, 33, 33, 0.5) 4px, rgba(22, 22, 22, 0.5) 10px);
 }
 
-/* line 140, ../sass/style.sass */
+/* line 181, ../sass/style.sass */
 .fifth-inner {
   text-align: center;
   margin: 20% 0;
 }
-/* line 143, ../sass/style.sass */
+/* line 184, ../sass/style.sass */
 .fifth-inner h1 {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-/* line 147, ../sass/style.sass */
+/* line 188, ../sass/style.sass */
 .fifth-inner input {
   color: #111;
   padding: 20px 22px;
@@ -341,40 +397,73 @@ ul.nav-menu li a {
   border: none;
 }
 
-/* line 157, ../sass/style.sass */
+/* line 198, ../sass/style.sass */
 #sixth {
   background-color: #f5f6f7;
 }
-/* line 159, ../sass/style.sass */
+/* line 200, ../sass/style.sass */
 #sixth .section-title {
   text-align: center;
   margin: 0;
 }
-/* line 162, ../sass/style.sass */
+/* line 203, ../sass/style.sass */
 #sixth .section-text {
   text-align: center;
   margin: 5% 0 5%;
 }
 
-/* line 167, ../sass/style.sass */
-.download-buttons .download-button-one {
+/* line 208, ../sass/style.sass */
+.download-buttons .download-button-appleStore {
   float: right;
 }
-/* line 169, ../sass/style.sass */
-.download-buttons .download-button-two {
+/* line 210, ../sass/style.sass */
+.download-buttons .download-button-playStore {
   float: left;
 }
-
-/* line 172, ../sass/style.sass */
-footer {
-  padding: 2% 0;
+/* line 212, ../sass/style.sass */
+.download-buttons a {
+  position: relative;
+  width: 300px;
 }
-/* line 176, ../sass/style.sass */
+/* line 215, ../sass/style.sass */
+.download-buttons a:hover {
+  background: #16a085;
+}
+/* line 217, ../sass/style.sass */
+.download-buttons .download-button-icon {
+  position: absolute;
+  background-color: #16a085;
+  height: 100%;
+  right: 0;
+  top: 0;
+  padding: 20px 30px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/* line 231, ../sass/style.sass */
+footer {
+  padding: 1% 0;
+}
+/* line 235, ../sass/style.sass */
 footer ul.nav-menu-footer li a {
   font-size: 1rem;
   color: #111;
 }
-/* line 179, ../sass/style.sass */
+/* line 238, ../sass/style.sass */
+footer ul.nav-menu-footer li:not(:last-child):after {
+  content: "|";
+  color: #16a085;
+  font-size: 1rem;
+  padding-right: 50%;
+  padding-left: 40%;
+  font-weight: bold;
+}
+/* line 245, ../sass/style.sass */
 footer .section-logo-footer {
   vertical-align: middle;
 }
@@ -383,18 +472,190 @@ footer .section-logo-footer {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   /* */
+  /* line 6, ../sass/_media.sass */
+  .hand-with-phones {
+    margin-right: 3%;
+  }
+
+  /* line 8, ../sass/_media.sass */
+  #third .phones-mockUps {
+    margin-left: 6%;
+  }
+
+  /* line 10, ../sass/_media.sass */
+  .slider {
+    width: 450px;
+  }
+  /* line 13, ../sass/_media.sass */
+  .slider ul [class*='slider-item'] {
+    width: 450px;
+  }
+
+  /* line 15, ../sass/_media.sass */
+  .slider1 {
+    width: 600px;
+  }
+  /* line 17, ../sass/_media.sass */
+  .slider1 img {
+    max-width: 100%;
+  }
+  /* line 20, ../sass/_media.sass */
+  .slider1 ul [class*='slider-item'] {
+    width: 300px;
+  }
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   /* */
+  /* line 27, ../sass/_media.sass */
+  .slider {
+    width: 700px;
+  }
+  /* line 30, ../sass/_media.sass */
+  .slider ul [class*='slider-item'] {
+    width: 700px;
+  }
+
+  /* line 32, ../sass/_media.sass */
+  .slider1 {
+    width: 700px;
+    margin: 0 auto;
+  }
+  /* line 36, ../sass/_media.sass */
+  .slider1 ul [class*='slider-item'] {
+    width: 350px;
+  }
+
+  /* line 39, ../sass/_media.sass */
+  .section-logo h4 {
+    padding: 3% 0;
+  }
+
+  /* line 41, ../sass/_media.sass */
+  .section-title {
+    margin: 2% 0;
+  }
+
+  /* line 43, ../sass/_media.sass */
+  .section-text {
+    margin: 3% 0 10%;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   /* */
+  /* line 48, ../sass/_media.sass */
+  h1 {
+    font-size: 2rem;
+  }
+
+  /* line 50, ../sass/_media.sass */
+  .slider {
+    width: 400px;
+  }
+  /* line 53, ../sass/_media.sass */
+  .slider ul [class*='slider-item'] {
+    width: 400px;
+  }
+
+  /* line 55, ../sass/_media.sass */
+  .slider1 {
+    width: 400px;
+    margin: 0 auto;
+  }
+  /* line 59, ../sass/_media.sass */
+  .slider1 ul [class*='slider-item'] {
+    width: 400px;
+  }
+
+  /* line 62, ../sass/_media.sass */
+  .download-buttons .download-button-appleStore {
+    float: none;
+  }
+  /* line 64, ../sass/_media.sass */
+  .download-buttons .download-button-playStore {
+    float: none;
+  }
+
+  /* line 67, ../sass/_media.sass */
+  .download-buttons a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /* line 73, ../sass/_media.sass */
+  footer ul.nav-menu-footer li {
+    margin-right: 3%;
+  }
+  /* line 75, ../sass/_media.sass */
+  footer ul.nav-menu-footer li:not(:last-child):after {
+    content: "|";
+    color: #16a085;
+    font-size: 1rem;
+    padding-right: 5%;
+    padding-left: 10%;
+    font-weight: bold;
+  }
+  /* line 82, ../sass/_media.sass */
+  footer p {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   /* */
+  /* line 88, ../sass/_media.sass */
+  .socials {
+    margin-top: 24vh;
+  }
+
+  /* line 90, ../sass/_media.sass */
+  .slider1 {
+    width: 280px;
+  }
+  /* line 92, ../sass/_media.sass */
+  .slider1 img {
+    max-width: 100%;
+  }
+  /* line 95, ../sass/_media.sass */
+  .slider1 ul [class*='slider-item'] {
+    width: 280px;
+  }
+
+  /* line 97, ../sass/_media.sass */
+  .slider {
+    width: 260px;
+  }
+  /* line 100, ../sass/_media.sass */
+  .slider ul [class*='slider-item'] {
+    width: 260px;
+  }
+
+  /* line 103, ../sass/_media.sass */
+  .download-buttons a {
+    position: relative;
+    width: 240px;
+  }
+  /* line 106, ../sass/_media.sass */
+  .download-buttons .download-button-icon {
+    padding: 20px 16px;
+  }
+
+  /* line 110, ../sass/_media.sass */
+  footer ul.nav-menu-footer li {
+    margin-right: 5px;
+  }
+  /* line 112, ../sass/_media.sass */
+  footer ul.nav-menu-footer li:not(:last-child):after {
+    content: "|";
+    color: #16a085;
+    font-size: 1rem;
+    padding-right: 1%;
+    padding-left: 10px;
+    font-weight: bold;
+  }
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {

@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-md-12">
                 <nav class="nav-bar">
-                    <ul class="nav-menu">
+                    <ul class="nav-menu hidden-xs">
                         <li><a href="#">home</a></li>
                         <li><a href="#">photoapp</a></li>
                         <li><img src="img/nav-menu-middle-img.png" alt=""></li>
@@ -92,13 +92,9 @@
                     <a href="#" class="button">get started</a>
                 </div>
             </div>
-
-            <div class="col-md-6">
-                <ul class="hand-with-phones">
-                    <li class="phone"><img src="img/handwithiphone5sblack.png" alt=""></li>
-
-                </ul>
-            </div>
+            <ul class="hand-with-phones hidden-sm hidden-xs">
+                <li class="phone"><img src="img/handwithiphone5sblack.png" alt=""></li>
+            </ul>
         </div>
     </div>
 </section>
@@ -107,12 +103,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="col-md-7">
-                    <ul class="phones-mockUps">
-                        <li><img src="img/iphone-mockUp.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="col-md-5 section-padding">
+                <ul class="phones-mockUps hidden-sm hidden-xs">
+                    <li><img src="img/iphone-mockUp.png" alt=""></li>
+                </ul>
+                <div class="col-lg-offset-7 col-lg-5 col-md-offset-5 col-md-7 section-padding">
                     <div class="col-md-12">
                         <div class="section-title">
                             <h2>design</h2>
@@ -122,7 +116,7 @@
                     <div class="col-md-12">
                         <div class="slider">
                             <ul>
-                                <li>
+                                <li class="slider-item">
                                     <div>
                                         <div class="section-text">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
@@ -138,7 +132,7 @@
                                         <a href="#" class="button">Learn more</a>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="slider-item">
                                     <div>
                                         <div class="section-text">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
@@ -154,7 +148,7 @@
                                         <a href="#" class="button">Learn more</a>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="slider-item">
                                     <div>
                                         <div class="section-text">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
@@ -190,7 +184,13 @@
                 </div>
             </div>
             <div class="col-md-8">
-
+                <div class="slider1">
+                    <ul>
+                        <li><img src="img/photo1.jpg" alt=""></li>
+                        <li><img src="img/photo2.jpg" alt=""></li>
+                        <li><img src="img/photo2.jpg" alt=""></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -203,7 +203,7 @@
             <div class="col-md-12">
                 <div class="fifth-inner">
                     <h1>subscribe to us community</h1>
-                    <input type="text" placeholder="YOUR EMAIL">
+                    <input class="subscribe" type="text" placeholder="YOUR EMAIL"><button type="submit" class="button subscribe-button"><i class="fa fa-check"></i></button>
                 </div>
             </div>
         </div>
@@ -232,13 +232,13 @@
             <div class="col-md-offset-1 col-md-10">
                 <div class="download-buttons">
                     <div class="col-md-6">
-                        <div class="download-button-one">
-                            <a href="#" class="button">Apple Store</a>
+                        <div class="download-button-appleStore">
+                            <a href="#" class="button">Apple Store<span class="download-button-icon"><i class="fa fa-apple"></i></span></a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="download-button-two">
-                            <a href="#" class="button">Play Store</a>
+                        <div class="download-button-playStore">
+                            <a href="#" class="button">Play Store<span class="download-button-icon"><i class="fa fa-android"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -257,6 +257,7 @@
                         <li><a href="#">privacy</a></li>
                         <li><a href="#">our teams</a></li>
                     </ul>
+                    <p>Copyright by phototime - all right reserved</p>
                 </div>
                 <div class="col-md-6">
                     <div class="section-logo section-logo-footer">
@@ -272,5 +273,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="libs/jQuery/jquery-2.1.4.min.js"><\/script>')</script>
 <script src="js/main.js"></script>
+<script src="libs/slider.js"></script>
 </body>
 </html>

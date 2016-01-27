@@ -3,21 +3,119 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
   /**/
+  .hand-with-phones
+    margin-right: 3%
+  #third .phones-mockUps
+    margin-left: 6%
+  .slider
+    width: 450px
+    ul
+      [class*='slider-item']
+        width: 450px
+  .slider1
+    width: 600px
+    img
+      max-width: 100%
+    ul
+      [class*='slider-item']
+        width: 300px
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
   /**/
-
-
+  .slider
+    width: 700px
+    ul
+      [class*='slider-item']
+        width: 700px
+  .slider1
+    width: 700px
+    margin: 0 auto
+    ul
+      [class*='slider-item']
+        width: 350px
+  .section-logo
+    h4
+      padding: 3% 0
+  .section-title
+    margin: 2% 0
+  .section-text
+    margin: 3% 0 10%
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
   /**/
-
-
+  h1
+    font-size: 2rem
+  .slider
+    width: 400px
+    ul
+      [class*='slider-item']
+        width: 400px
+  .slider1
+    width: 400px
+    margin: 0 auto
+    ul
+      [class*='slider-item']
+        width: 400px
+  .download-buttons
+    .download-button-appleStore
+      float: none
+    .download-button-playStore
+      float: none
+  .download-buttons
+    a
+      margin-left: auto
+      margin-right: auto
+      display: block
+  footer
+    ul.nav-menu-footer
+      li
+        margin-right: 3%
+        &:not(:last-child):after
+          content: '|'
+          color: $brand-color
+          font-size: 1rem
+          padding-right: 5%
+          padding-left: 10%
+          font-weight: bold
+    p
+      font-size: 1rem
+      text-align: center
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
   /**/
+  .socials
+    margin-top: 24vh
+  .slider1
+    width: 280px
+    img
+      max-width: 100%
+    ul
+      [class*='slider-item']
+        width: 280px
+  .slider
+    width: 260px
+    ul
+      [class*='slider-item']
+        width: 260px
+  .download-buttons
+    a
+      position: relative
+      width: 240px
+    .download-button-icon
+      padding: 20px 16px
+  footer
+    ul.nav-menu-footer
+      li
+        margin-right: 5px
+        &:not(:last-child):after
+          content: '|'
+          color: $brand-color
+          font-size: 1rem
+          padding-right: 1%
+          padding-left: 10px
+          font-weight: bold
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
