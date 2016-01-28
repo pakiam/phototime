@@ -89,3 +89,38 @@
 
     };
 })(jQuery);
+
+
+(function ($) {
+
+    $.fn.myBurger = function () {
+        var self=this;
+        $(self).find('span').each(function () {
+            $(this).addClass('nav-burger-span' + $(this).index());
+        });
+
+        $(self).on('click', function () {
+            if($(this).attr('data-click-state')==1) {
+                $(this).attr('data-click-state',0);
+
+                $('ul.nav-menu').hide('slow');
+                $('.nav-burger-span1').show();
+                $('.nav-burger-span0').css({'transform': '', marginTop: ''});
+                $('.nav-burger-span2').css({'transform': '', marginTop: ''});
+            }else{
+                $(this).attr('data-click-state',1);
+
+                $('.nav-burger-span1').hide();
+                $('.nav-burger-span0').css({'transform': 'rotate(45deg)', marginTop: '45%'});
+                $('.nav-burger-span2').css({'transform': 'rotate(-45deg)', marginTop: '-18%'});
+                $('ul.nav-menu').show('slow');
+            }
+        });
+        $(self).parents().find('a').each(function () {
+            $(this).on('click', function () {
+                console.log('clicked a');
+                $(self).trigger('click');
+            });
+        })
+    };
+})(jQuery);

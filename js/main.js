@@ -9,5 +9,6 @@ $(document).ready(function () {
     //    classForSliderItems: 'slider-item2',
     //    classForCurrentSlide: 'current-slide2'
     //});
+    $('.nav-burger').myBurger();
 });
 
